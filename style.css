@@ -1,0 +1,67 @@
+body{
+
+     margin-top: auto;
+     
+    
+}
+
+
+#cabeçalho{
+    background-color: black;
+    height: 62px;
+    
+}
+img{
+
+align-items: center;
+}
+
+
+h1{
+    float: right;
+    display: flex;
+    font-size: 1em;
+    margin-block-start: 0.10em;
+}
+h2{
+    float: left;
+    display: flex;
+    font-size: 1em;
+    margin-block-start: 0.10em;  
+    margin-left: 30px;
+}
+nav{
+    padding-bottom: 200px;
+    padding-top: 1px;
+    max-width: 250px;
+    width: 100%;
+    background-color: rgba(185, 179, 179, 0.938);
+    
+}
+div{
+    margin-top: 0px;
+}
+
+nav ul{
+    margin-top: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+nav ul li{
+    border: solid 1px;
+
+}
+nav ul li :hover {
+    background-color: rgb(218, 156, 25);
+}
+
+nav ul li a {
+    color: black;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    
+
+}
